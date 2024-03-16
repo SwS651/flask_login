@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Welcome, {{ current_user.StaffName }}</h1>
+    <p>This is your index page.</p>
+    <!-- <p><a href="{{ url_for('auth.logout') }}">Logout</a></p> -->
+{% endblock %}
